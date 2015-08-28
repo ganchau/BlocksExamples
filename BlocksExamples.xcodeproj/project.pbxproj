@@ -14,6 +14,7 @@
 		BD9666251B8FDBD4008B12BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9666241B8FDBD4008B12BC /* Images.xcassets */; };
 		BD9666281B8FDBD4008B12BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9666261B8FDBD4008B12BC /* LaunchScreen.xib */; };
 		BD9666341B8FDBD4008B12BC /* BlocksExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9666331B8FDBD4008B12BC /* BlocksExamplesTests.m */; };
+		BDA421741B8FDEB800844025 /* BlocksObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA421731B8FDEB800844025 /* BlocksObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BD96662D1B8FDBD4008B12BC /* BlocksExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocksExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9666321B8FDBD4008B12BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD9666331B8FDBD4008B12BC /* BlocksExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksExamplesTests.m; sourceTree = "<group>"; };
+		BDA421721B8FDEB800844025 /* BlocksObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksObjects.h; sourceTree = "<group>"; };
+		BDA421731B8FDEB800844025 /* BlocksObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksObjects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				BD96661B1B8FDBD4008B12BC /* AppDelegate.h */,
 				BD96661C1B8FDBD4008B12BC /* AppDelegate.m */,
+				BDA421721B8FDEB800844025 /* BlocksObjects.h */,
+				BDA421731B8FDEB800844025 /* BlocksObjects.m */,
 				BD96661E1B8FDBD4008B12BC /* ViewController.h */,
 				BD96661F1B8FDBD4008B12BC /* ViewController.m */,
 				BD9666211B8FDBD4008B12BC /* Main.storyboard */,
@@ -221,6 +226,7 @@
 			files = (
 				BD9666201B8FDBD4008B12BC /* ViewController.m in Sources */,
 				BD96661D1B8FDBD4008B12BC /* AppDelegate.m in Sources */,
+				BDA421741B8FDEB800844025 /* BlocksObjects.m in Sources */,
 				BD96661A1B8FDBD4008B12BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				BD9666391B8FDBD4008B12BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD96663A1B8FDBD4008B12BC /* Build configuration list for PBXNativeTarget "BlocksExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				BD96663C1B8FDBD4008B12BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

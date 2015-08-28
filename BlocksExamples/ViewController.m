@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BlocksObjects.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [BlocksObjects simpleMethodWithABlock:^(NSString *stringParam) {
+        NSLog(@"%@", stringParam);
+    }];
+    
+    [BlocksObjects multiplyParam:15
+                     secondParam:0
+                 completionBlock:^(BOOL success, NSString *result) {
+                     if (success) {
+                         NSLog(@"%@", result);
+                     } else {
+                         NSLog(@"Error: %@", result);
+                     }
+                 }];
 }
 
 - (void)didReceiveMemoryWarning {
